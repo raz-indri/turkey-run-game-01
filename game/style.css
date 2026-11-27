@@ -1,0 +1,29 @@
+/* Gobble Dash — autumn farm palette, responsive stage. */
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #2b1a0e;
+  font-family: "Trebuchet MS", "Segoe UI", Verdana, sans-serif;
+  color: #ffe9c4;
+}
+#stage {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 12px;
+}
+#game {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.55);
+  background: #f7b267;
+  cursor: pointer;
+}
+#hint {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.85;
+}
